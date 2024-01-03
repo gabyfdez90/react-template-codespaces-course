@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/faux_code.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Harry Potter and the SOLID Principles",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "An approach to these programming principles through the popular fantasy saga.",
+    url: "https://www.linkedin.com/pulse/harry-potter-y-los-principios-solid-gabriela-m-fern%25C3%25A1ndez/?trackingId=4jwfI1U8SFe2mUQhi2h%2FKw%3D%3D",
   },
   {
-    title: "Web Development for Beginners",
+    title: "A journalist enters The New York Times through their API",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Notes on a journalist's journey into the tech industry.",
+    url: "https://www.linkedin.com/pulse/una-periodista-entra-new-york-times-trav%25C3%25A9s-de-su-api-fern%25C3%25A1ndez/?trackingId=MwEGmVEAQmW%2FneiP2x6g1g%3D%3D",
   },
   {
-    title: "My Resume Site",
+    title: "Github Bio",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Check out some of the technologies and repositories I have touched so far.",
+    url: "https://github.com/gabyfdez90",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "A frameworks story",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A point of view on frameworks and their pro and cons for newbie devs.",
+    url: "https://www.linkedin.com/pulse/una-historia-de-frameworks-gabriela-m-fern%25C3%25A1ndez/?trackingId=MwEGmVEAQmW%2FneiP2x6g1g%3D%3D",
   },
 ];
 
