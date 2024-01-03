@@ -27087,15 +27087,15 @@ var _stylesCss = require("./styles.css");
  *
  * If you don't have one of the social sites listed, leave it as an empty string.
  */ const siteProps = {
-    name: "Gabriela Fernandez",
-    title: "Tech writer and newbie dev",
-    email: "galalou2010@gmail.com",
-    gitHub: "gabyfdez90",
-    instagram: "gabyfdez90",
-    linkedIn: "gabriela-m-fernandez-mendez/",
-    medium: "gabyfdez90",
-    twitter: "gabyfdez90",
-    youTube: ""
+    name: "Alexandrie Grenier",
+    title: "Web Designer & Content Creator",
+    email: "alex@example.com",
+    gitHub: "microsoft",
+    instagram: "microsoft",
+    linkedIn: "satyanadella",
+    medium: "",
+    twitter: "microsoft",
+    youTube: "Code"
 };
 const primaryColor = "#4E567E";
 const secondaryColor = "#D2F1E4";
@@ -27177,29 +27177,28 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
- */ var _paperTextureJpg = require("../images/paper_texture.jpg");
-var _paperTextureJpgDefault = parcelHelpers.interopDefault(_paperTextureJpg);
+ */ var _motionBackgroundJpg = require("../images/motion-background.jpg");
+var _motionBackgroundJpgDefault = parcelHelpers.interopDefault(_motionBackgroundJpg);
 const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
- */ const description = "Technical writer, aspiring to add more coding into her day to day activities. Also, I'm studying Multiplatform Apps Development in the IES San Clemente Vocational Training, Santiago de Compostela (Spain).";
+ */ const description = "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */ const skillsList = [
-    "Technical writing",
-    "Content strategic creation",
-    "Basic programming with Python, PHP, JavaScript, Java",
-    "Web design with HTML, CSS, React",
-    "Data Analysis (SQL, Excel, Pandas or R)",
-    "Git and Github proeficiency",
-    "Organizational skills", 
+    "Web design",
+    "User experience",
+    "Inclusive design",
+    "Focus group testing",
+    "Mobile user interfaces",
+    "Graphic design", 
 ];
 /**
  * Use this to give more information about what you are passionate about,
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
- */ const detailOrQuote = "I'm, interested in anything that could fit the middle space of a Venn diagram between coding, communications, writing and data.";
+ */ const detailOrQuote = "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
 const About = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         className: "padding",
@@ -27207,11 +27206,11 @@ const About = ()=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _paperTextureJpgDefault.default),
+                src: (0, _motionBackgroundJpgDefault.default),
                 alt: imageAltText
             }, void 0, false, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 54,
+                lineNumber: 53,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27227,7 +27226,7 @@ const About = ()=>{
                         children: "About Myself"
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 64,
+                        lineNumber: 63,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27235,12 +27234,12 @@ const About = ()=>{
                         children: description
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 65,
+                        lineNumber: 64,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 66,
+                        lineNumber: 65,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("ul", {
@@ -27255,17 +27254,17 @@ const About = ()=>{
                                 children: skill
                             }, skill, false, {
                                 fileName: "src/Components/About.jsx",
-                                lineNumber: 77,
+                                lineNumber: 76,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 67,
+                        lineNumber: 66,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 80,
+                        lineNumber: 79,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
@@ -27275,19 +27274,19 @@ const About = ()=>{
                         children: detailOrQuote
                     }, void 0, false, {
                         fileName: "src/Components/About.jsx",
-                        lineNumber: 81,
+                        lineNumber: 80,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/Components/About.jsx",
-                lineNumber: 55,
+                lineNumber: 54,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/About.jsx",
-        lineNumber: 53,
+        lineNumber: 52,
         columnNumber: 5
     }, undefined);
 };
@@ -27301,44 +27300,7 @@ $RefreshReg$(_c, "About");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/paper_texture.jpg":"dJu9y","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"dJu9y":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "paper_texture.9f4debf1.jpg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
-
-},{}],"gkKU3":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/motion-background.jpg":"kzNvo"}],"gkKU3":[function(require,module,exports) {
 exports.interopDefault = function(a) {
     return a && a.__esModule ? a : {
         default: a
@@ -27488,7 +27450,44 @@ function registerExportsForReactRefresh(module1) {
     }
 }
 
-},{"react-refresh/runtime":"786KC"}],"7GWgX":[function(require,module,exports) {
+},{"react-refresh/runtime":"786KC"}],"kzNvo":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "motion-background.0a6a8db0.jpg" + "?" + Date.now();
+
+},{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
+"use strict";
+var bundleURL = {};
+function getBundleURLCached(id) {
+    var value = bundleURL[id];
+    if (!value) {
+        value = getBundleURL();
+        bundleURL[id] = value;
+    }
+    return value;
+}
+function getBundleURL() {
+    try {
+        throw new Error();
+    } catch (err) {
+        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
+        if (matches) // The first two stack frames will be this function and getBundleURLCached.
+        // Use the 3rd one, which will be a runtime in the original bundle.
+        return getBaseURL(matches[2]);
+    }
+    return "/";
+}
+function getBaseURL(url) {
+    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
+} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
+function getOrigin(url) {
+    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
+    if (!matches) throw new Error("Origin not found");
+    return matches[0];
+}
+exports.getBundleURL = getBundleURLCached;
+exports.getBaseURL = getBaseURL;
+exports.getOrigin = getOrigin;
+
+},{}],"7GWgX":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$8b43 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -28623,9 +28622,9 @@ var _propTypesDefault = parcelHelpers.interopDefault(_propTypes);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _wordpressPicJpeg = require("../images/wordpress_pic.jpeg");
-var _wordpressPicJpegDefault = parcelHelpers.interopDefault(_wordpressPicJpeg);
-const imageAltText = "Gabriela M. Fernandez attending Wordpress Pontevedra annual event";
+ */ var _womanWithTabletJpg = require("../images/woman-with-tablet.jpg");
+var _womanWithTabletJpgDefault = parcelHelpers.interopDefault(_womanWithTabletJpg);
+const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
 const Home = ({ name , title  })=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "home",
@@ -28633,7 +28632,7 @@ const Home = ({ name , title  })=>{
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
                 className: "background",
-                src: (0, _wordpressPicJpegDefault.default),
+                src: (0, _womanWithTabletJpgDefault.default),
                 alt: ""
             }, void 0, false, {
                 fileName: "src/Components/Home.jsx",
@@ -28716,11 +28715,11 @@ $RefreshReg$(_c, "Home");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","../images/wordpress_pic.jpeg":"bsune","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"b5nCi":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/down-arrow.svg":"b5nCi","prop-types":"7wKI2","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/woman-with-tablet.jpg":"bEltf"}],"b5nCi":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "down-arrow.1037091f.svg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"bsune":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "wordpress_pic.e78dd994.jpeg" + "?" + Date.now();
+},{"./helpers/bundle-url":"lgJ39"}],"bEltf":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "woman-with-tablet.b3bf1156.jpg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lCaEt":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$ed0d = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
@@ -28750,8 +28749,8 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _fauxCodeJpg = require("../images/faux_code.jpg");
-var _fauxCodeJpgDefault = parcelHelpers.interopDefault(_fauxCodeJpg);
+ */ var _designDeskJpeg = require("../images/design-desk.jpeg");
+var _designDeskJpegDefault = parcelHelpers.interopDefault(_designDeskJpeg);
 const imageAltText = "desktop with books and laptop";
 /**
  * Project list
@@ -28760,24 +28759,24 @@ const imageAltText = "desktop with books and laptop";
  * links section. Below is a sample, update to reflect links you'd like to highlight.
  */ const projectList = [
     {
-        title: "Harry Potter and the SOLID Principles",
-        description: "An approach to these programming principles through the popular fantasy saga.",
-        url: "https://www.linkedin.com/pulse/harry-potter-y-los-principios-solid-gabriela-m-fern%25C3%25A1ndez/?trackingId=4jwfI1U8SFe2mUQhi2h%2FKw%3D%3D"
+        title: "10 Things To Know About Azure Static Web Apps \uD83C\uDF89",
+        description: "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
+        url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i"
     },
     {
-        title: "A journalist enters The New York Times through their API",
-        description: "Notes on a journalist's journey into the tech industry.",
-        url: "https://www.linkedin.com/pulse/una-periodista-entra-new-york-times-trav%25C3%25A9s-de-su-api-fern%25C3%25A1ndez/?trackingId=MwEGmVEAQmW%2FneiP2x6g1g%3D%3D"
+        title: "Web Development for Beginners",
+        description: "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
+        url: "https://github.com/microsoft/web-dev-for-beginners"
     },
     {
-        title: "Github Bio",
-        description: "Check out some of the technologies and repositories I have touched so far.",
-        url: "https://github.com/gabyfdez90"
+        title: "My Resume Site",
+        description: "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
+        url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website"
     },
     {
-        title: "A frameworks story",
-        description: "A point of view on frameworks and their pro and cons for newbie devs.",
-        url: "https://www.linkedin.com/pulse/una-historia-de-frameworks-gabriela-m-fern%25C3%25A1ndez/?trackingId=MwEGmVEAQmW%2FneiP2x6g1g%3D%3D"
+        title: "GitHub Codespaces and github.dev",
+        description: "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
+        url: "https://www.youtube.com/watch?v=c3hHhRME_XI"
     }, 
 ];
 const Portfolio = ()=>{
@@ -28808,7 +28807,7 @@ const Portfolio = ()=>{
                             alignSelf: "center"
                         },
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _fauxCodeJpgDefault.default),
+                            src: (0, _designDeskJpegDefault.default),
                             style: {
                                 height: "90%",
                                 width: "100%",
@@ -28891,8 +28890,8 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/faux_code.jpg":"bNuCF"}],"bNuCF":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "faux_code.7cfce22e.jpg" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/design-desk.jpeg":"jSSP3"}],"jSSP3":[function(require,module,exports) {
+module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "design-desk.df4cd0cf.jpeg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
